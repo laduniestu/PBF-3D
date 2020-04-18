@@ -1,0 +1,78 @@
+{
+    "listProduk": [
+        {
+            "id": 1,
+            "gambar": "oven1.jpg",
+            "nama": "Oven Kue Gas Hock Ho-Gs103 (Stainless)",
+            "harga": 900000,
+            "stok": "3"
+        },
+        {
+            "id": 2,
+            "gambar": "oven2.jpg",
+            "nama": "Oven Kue Gas Bima 7550",
+            "harga": 2500000,
+            "stok": "1"
+        },
+        {
+            "id": 3,
+            "gambar": "oven3.jpg",
+            "nama": "Oven Gas Golden Star M-40",
+            "harga": 3000000,
+            "stok": "4"
+        },
+        {
+            "id": 4,
+            "gambar": "oven4.jpg",
+            "nama": "Gas Baking Oven Getra Rfl-11ss",
+            "harga": 5000000,
+            "stok": "10"
+        },
+        {
+            "id": 5,
+            "gambar": "oven5.jpg",
+            "nama": "Kirin Oven Listrik Kbo 100 M",
+            "harga": 290000,
+            "stok": "4"
+        },
+        {
+            "id": 6,
+            "gambar": "oven6.jpg",
+            "nama": "Oven Kue Listrik Oxone OX 858",
+            "harga": 600000,
+            "stok": "2"
+        },
+        {
+            "id": 7,
+            "gambar": "oven7.jpg",
+            "nama": "Cosmos CO9919R Electric Oven",
+            "harga": 450000,
+            "stok": "10"
+        },
+        {
+            "id": 8,
+            "gambar": "oven8.jpg",
+            "nama": "Oven Listrik Modena Built In Profilo Bo 2633",
+            "harga": 6000000,
+            "stok": "3"
+        },
+        {
+            "id": 9,
+            "gambar": "oven9.jpg",
+            "nama": "Oven Kompor Hock No. 4",
+            "harga": 750000,
+            "stok": "10"
+        },
+        {
+            "id": 10,
+            "gambar": "oven10.jpg",
+            "nama": "Oven Kompor Bima",
+            "harga": 200000,
+            "stok": "32"
+        }
+    ],
+    "comments": [],
+    "profile": {
+        "name": "typicode"
+    }
+}

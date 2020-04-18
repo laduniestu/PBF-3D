@@ -22,9 +22,9 @@ export default function Navbar() {
           
             
             <Link to="/Home" class="active">Home</Link>
-            <Link to="/rumahtangga">Kategori Rumah Tangga</Link>
-            <Link to="/mobil">Kategori Mobil</Link>
-            <Link to="/motor">Kategori Motor</Link>
+            <Link to="/rumahtangga">Rumah Tangga</Link>
+            <Link to="/mobil">Mobil</Link>
+            <Link to="/motor">Motor</Link>
             <AuthButton /> 
             
             
@@ -89,10 +89,10 @@ function AuthButton(){
 
 function PrivateRoute({ children, ...rest}) {
   return(
-    <Route {...rest} render={({location}) => fakeAuth.isAuthenticated ? (
-      children
-      ) : (
-      <Redirect to ={{pathname: "/login", state: { from: location}}} />
+    <Route {...rest} render={({location}) => 
+    fakeAuth.isAuthenticated ? ( children ) : (
+      <Redirect to ={{pathname: "/login", state: 
+      { from: location}}} />
       ) 
       }  
     />
@@ -102,9 +102,10 @@ function PrivateRoute({ children, ...rest}) {
 function Home() {
   return (
     <div>
-       <table class="table-noborder">
+      <table class="table-noborder">
       <tr>  
-        <td rowSpan="10"><img src={Logo} alt="" width="350px" height="550px"></img></td>
+        <td rowSpan="10"><img src={Logo} alt=""
+        width="350px" height="550px"></img></td>
         <td>Nama</td>
         <td>:</td>
         <td>Laduni Estu Syalwa</td>
@@ -166,7 +167,8 @@ function LoginPage(){
       history.replace(from);
     });
   };
-  alert(`You must log in to view the page at ${from.pathname}`)
+  alert(`You must log in to view the page at 
+  ${from.pathname}`)
   return (
     
     <div class= "botton">
@@ -184,13 +186,16 @@ function RumahTangga(){
       <h2>Kategori Rumah Tangga</h2>
       <ul>
         <li>
-          <Link to={`${url}/Panci, Sendok Makan, Piring`}>Dapur</Link>
+          <Link to={`${url}/Panci, Sendok Makan, 
+          Piring`}>Dapur</Link>
         </li>
         <li>
-          <Link to={`${url}/Spring Bed, Bantal, Guling`}>Kamar Tidur</Link>
+          <Link to={`${url}/Spring Bed, Bantal, 
+          Guling`}>Kamar Tidur</Link>
         </li>
         <li>
-          <Link to={`${url}/Gayung, Tempat Sabun, Shower Cap`}>Kamar Mandi</Link>
+          <Link to={`${url}/Gayung, Tempat Sabun, 
+          Shower Cap`}>Kamar Mandi</Link>
         </li>
       </ul>
 
@@ -215,10 +220,12 @@ function Mobil(){
       <h2>Kategori Mobil</h2>
       <ul>
         <li>
-          <Link to={`${url}/X-Pander, Xenia, Inova`}>Keluarga</Link>
+          <Link to={`${url}/X-Pander, Xenia, Inova`}>
+            Keluarga</Link>
         </li>
         <li>
-          <Link to={`${url}/Audi, Lamborghini, BMW`}>Sport</Link>
+          <Link to={`${url}/Audi, Lamborghini, BMW`}>
+            Sport</Link>
         </li>
         
       </ul>
@@ -242,13 +249,16 @@ function Motor(){
       <h2>Kategori Motor</h2>
       <ul>
         <li>
-          <Link to={`${url}/Harley Davidson, BMW`}>CC Tinggi</Link>
+          <Link to={`${url}/Harley Davidson, BMW`}>
+            CC Tinggi</Link>
         </li>
         <li>
-          <Link to={`${url}/R25, Ninja, CRF`}>CC Sedang</Link>
+          <Link to={`${url}/R25, Ninja, CRF`}>
+            CC Sedang</Link>
         </li>
         <li>
-          <Link to={`${url}/Supra, Beat, Kharisma`}>CC Rendah</Link>
+          <Link to={`${url}/Supra, Beat, Kharisma`}>
+            CC Rendah</Link>
         </li>
       </ul>
 

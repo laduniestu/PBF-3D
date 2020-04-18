@@ -1,0 +1,57 @@
+{
+  "keranjang": [
+    {
+      "id": 1,
+      "nama": "Oven Kue Gas Hock Ho-Gs103 (Stainless)",
+      "harga": 900000,
+      "stok": "3",
+      "qty": 2
+    },
+    {
+      "id": 2,
+      "nama": "Oven Kue Gas Bima 7550",
+      "harga": 2500000,
+      "stok": "1",
+      "qty": 7
+    },
+    {
+      "id": 5,
+      "nama": "Kirin Oven Listrik Kbo 100 M",
+      "harga": 290000,
+      "stok": "4",
+      "qty": 6
+    },
+    {
+      "id": 4,
+      "nama": "Gas Baking Oven Getra Rfl-11ss",
+      "harga": 5000000,
+      "stok": "10",
+      "qty": 3
+    },
+    {
+      "id": 3,
+      "nama": "Oven Gas Golden Star M-40",
+      "harga": 3000000,
+      "stok": "4",
+      "qty": 3
+    },
+    {
+      "id": 8,
+      "nama": "Oven Listrik Modena Built In Profilo Bo 2633",
+      "harga": 6000000,
+      "stok": "3",
+      "qty": 3
+    },
+    {
+      "id": 7,
+      "nama": "Cosmos CO9919R Electric Oven",
+      "harga": 450000,
+      "stok": "10",
+      "qty": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Jalin Kerjasama dengan Shenyang University of Technology, JTI Polinema Terbangkan Empat Mahasiswa ke Tiongkok",
+      "body": "Empat mahasiswa Jurusan Teknologi Informasi (JTI) Politeknik Negeri Malang (Polinema) telah berangkat ke negeri tirai bambu pada hari selasa (8/10/2019) kemarin, dalam rangka kerjasama antar kampus Polinema dan Shenyang University of Technology. Para mahasiswa tersebut..."
+    },
+    {
+      "userId": 1,
+      "id": 1583407274194,
+      "title": "Aku",
+      "body": "Capek COooooyyy"
+    },
+    {
+      "userId": 1,
+      "id": 1583407287334,
+      "title": "Aku",
+      "body": "Capek COooooyyyasd"
+    },
+    {
+      "userId": 1,
+      "id": 1583407288817,
+      "title": "Aku",
+      "body": "Capek COooooyyyasdasd"
+    },
+    {
+      "userId": 1,
+      "id": 1583407290030,
+      "title": "Akuasd",
+      "body": "Capek COooooyyyasdasd"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

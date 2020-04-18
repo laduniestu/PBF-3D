@@ -38,6 +38,7 @@ export default function AuthExample(){
     </Router>
   )
 }
+
 const fakeAuth = {
   isAuthenticated: false,
   authenticate(cb){
@@ -109,7 +110,8 @@ function LoginPage(){
   };
   return(
     <div>
-      <p>You must log in to view the page at {from.pathname}</p>
+      <p>You must log in to view the page at 
+        {from.pathname}</p>
       <button onClick={login}>Log in</button>
     </div>
   );
